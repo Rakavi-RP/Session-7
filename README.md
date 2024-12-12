@@ -34,7 +34,7 @@ pip install torch torchvision tqdm torchsummary
 
 ### Model 1
  **Logs**:
- ```
+ ```python
   EPOCH: 0
   Loss=0.1615714132785797 Batch_id=468 Accuracy=94.83: 100%|██████████| 469/469 [00:17<00:00, 27.00it/s]
 
@@ -144,7 +144,7 @@ Introduce dropout to reduce over fitting
 ### Model 2
 
 **Logs**:
- ```
+ ```python
  EPOCH: 0
 Loss=0.12093589454889297 Batch_id=468 Accuracy=94.22: 100%|██████████| 469/469 [00:16<00:00, 28.40it/s]
 
@@ -255,7 +255,7 @@ Increase the drop out
 
 ### Model 3
 **Logs**:
- ```
+ ```python
 EPOCH: 0
 Loss=0.11774060130119324 Batch_id=468 Accuracy=93.16: 100%|██████████| 469/469 [00:32<00:00, 14.48it/s]
 
@@ -366,7 +366,7 @@ Trying Adam optimizer with lower learning rate for optimization
 
 ### Model 4 - Trained on EC2
 **Logs**:
- ```
+ ```python
 EPOCH: 0
 Loss=0.2490364909172058 Batch_id=468 Accuracy=93.12: 100%|██████████| 469/469 [00:10<00:00, 44.72it/s] 
 
