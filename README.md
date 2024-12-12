@@ -464,6 +464,12 @@ Test accuracy has reached 99.4 and is consistent from 10th epoch
 
 Adding StepLR helped the model to perform better
 
+**EC2_LOG_IMAGES**
+Refer Model4_EC2_0 to 4.png
+
+Refer Model4_EC2_5 to 9.png
+
+Refer Model4_EC2_10 to 14.png
 
 ## Evaluation
 
